@@ -26,8 +26,8 @@ chsh -s /bin/zsh
 echo "\n${PURPLE}Setting up One Dark theme as default theme${NC}\n"
 curl https://raw.githubusercontent.com/benniemosher/the-one-theme/master/zsh/TheOne.zsh-theme -o ~/.oh-my-zsh/themes/TheOne.zsh-theme
 
-mkdir ~/scripts/
-if [[ $PATH != *"$HOME/scripts"* ]];then
+mkdir ~/.scripts/
+if [[ $PATH != *"$HOME/.scripts"* ]];then
     echo "PATH=$PATH:\"$HOME/.scripts\"" >> ~/.zshrc
 fi
 which nvm > ~/.scripts/nvm
