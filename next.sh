@@ -7,6 +7,11 @@ source ~/.zshrc
 
 echo "\n${PURPLE}Installing Node and nvm${NC}\n"
 brew install node nvm
+
+echo "export NVM_DIR=\"$HOME/.nvm\"" >> ~/.zshrc
+echo "[ -s \"$NVM_DIR/nvm.sh\" ] && . \"$NVM_DIR/nvm.sh\"  # This loads nvm" >> ~/.zshrc
+echo "[ -s \"$NVM_DIR/bash_completion\" ] && . \"$NVM_DIR/bash_completion\"  # This loads nvm bash_completion" >> ~/.zshrc
+
 ~/.scripts/nvm install 10
 ~/.scripts/nvm alias default 10
 ~/.scripts/nvm use 10

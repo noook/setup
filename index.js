@@ -15,6 +15,14 @@ const casks = [
     cask: 'discord'
   },
   {
+    name: 'Microsoft Office',
+    cask: 'microsoft-office'
+  },
+  {
+    name: 'Adobe Creative Cloud',
+    cask: 'adobe-creative-cloud'
+  },
+  {
     name: 'Spotify',
     cask: 'spotify'
   },
@@ -25,6 +33,10 @@ const casks = [
   {
     name: 'Hyper',
     cask: 'hyper'
+  },
+  {
+    name: 'MAMP',
+    cask: 'mamp'
   }
 ];
 

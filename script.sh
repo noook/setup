@@ -38,3 +38,5 @@ echo "One Dark Theme for zsh"
 sed -i.bak -E 's/ZSH_THEME="(.+)"/ZSH_THEME="TheOne"/' ~/.zshrc
 
 rm ~/.zshrc.bak
+
+./next.sh
