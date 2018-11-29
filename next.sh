@@ -13,9 +13,9 @@ brew install node nvm
 echo "export NVM_DIR=\"$HOME/.nvm\"" >> ~/.zshrc
 echo ". \"/usr/local/opt/nvm/nvm.sh\"" >> ~/.zshrc
 
-~/.scripts/nvm install 10
-~/.scripts/nvm alias default 10
-~/.scripts/nvm use 10
+~/.scripts/nvm install 11
+~/.scripts/nvm alias default 11
+~/.scripts/nvm use 11
 
 echo "\n${PURPLE}Checking for node version:${NC}\n"
 MIN_VERSION="8.5.0"
